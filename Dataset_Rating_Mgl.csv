@@ -1,0 +1,1501 @@
+User_Id,Place_Id,Place_Name,Place_Rating
+1,1,Borobudur International Golf & Country Club,4
+1,2,Gunung Tidar,4
+1,3,Kebun Bibit Senopati,3
+1,4,Museum Abdul Jalil,4
+1,5,Museum AJB Bumi Putera,3
+1,6,Museum BPK RI,4
+1,7,Museum Diponegoro,3
+1,8,Museum OHD,4
+1,9,Museum Sudirman,5
+1,10,Prasasti Mantyasih,4
+1,11,Taman Kyai Langgeng,4
+1,12,Air Terjun Curug Silawe,4
+1,13,Air Terjun Kedungkayang,2
+1,14,Air Terjun Sekarlangit,3
+1,15,Air Terjun Sumuran Seloprojo,4
+1,16,Arung Jeram Sungai Elo,2
+1,17,Bukit Barede,3
+1,18,Bukit Grenden,4
+1,19,Bukit Rhema,4
+1,20,Candi Asu,3
+1,21,Candi Borobudur,3
+1,22,Candi Gunung Wukir,4
+1,23,Candi Gunungsari,3
+1,24,Candi Losari,4
+1,25,Candi Lumbung Sengi,3
+1,26,Candi Mendut Dan Pawon,3
+1,27,Candi Ngawen,3
+1,28,Candi Pendem,2
+1,29,Candi Retno,3
+1,30,Candi Selogriyo,4
+2,31,Curug Delimas,3
+2,32,Curug Sigetik,4
+2,33,Desa Bahasa Borobodur,4
+2,34,Desa Wisata Candirejo,3
+2,35,Festifal Telaga Bleder,5
+2,36,Festival Kali Elo,3
+2,37,Gardu Pandang Mangli,3
+2,38,Gelar Budaya Wanurejo,5
+2,39,Gondo Purowangi,3
+2,40,Gunung Gono,3
+2,41,Ketep Pass,3
+2,42,Little Ubud River Tubing,5
+2,43,Mangli,4
+2,44,Nakula Sadewa,3
+2,45,Pahat Batu Dan Edukasi Tamanagung,3
+2,46,Papringan Sawangan,3
+2,47,Pasar Kebon Watu Gede,4
+2,48,Pemandian Air Hangat Candi Umbul,3
+2,49,Pendakian Gunung Andong Via Pendem,5
+2,50,Pendakian Gunung Andong Via Sawit,3
+2,51,Pendakian Gunung Giyanti,3
+2,52,Prasati Tuk Mas,3
+2,53,Punthuk Mangir Gunung Payung,3
+2,54,Punthuk Mongrong,3
+2,55,Punthuk Setumbu,3
+2,56,River Tubing X-Gono Adventure,4
+2,57,Rumah Camera,3
+2,58,Sendang Hageng Tirta Kencana,3
+2,59,Silancur Higland,2
+2,60,Sleker Asri,3
+3,42,Little Ubud River Tubing,3
+3,43,Mangli,3
+3,44,Nakula Sadewa,2
+3,45,Pahat Batu Dan Edukasi Tamanagung,3
+3,46,Papringan Sawangan,3
+3,47,Pasar Kebon Watu Gede,3
+3,48,Pemandian Air Hangat Candi Umbul,3
+3,49,Pendakian Gunung Andong Via Pendem,3
+3,50,Pendakian Gunung Andong Via Sawit,3
+3,51,Pendakian Gunung Giyanti,3
+3,52,Prasati Tuk Mas,2
+3,53,Punthuk Mangir Gunung Payung,5
+3,54,Punthuk Mongrong,3
+3,55,Punthuk Setumbu,3
+3,56,River Tubing X-Gono Adventure,2
+3,57,Rumah Camera,3
+3,58,Sendang Hageng Tirta Kencana,3
+3,59,Silancur Higland,3
+3,60,Sleker Asri,4
+3,61,Taman Bunga Pagoda,3
+3,62,Taman Naura,3
+3,63,Taman Ramadanu,3
+3,64,Taman Rekreasi Mendut,3
+3,65,Taman Wisata Kalibening,3
+3,66,Telaga Bleder,3
+3,67,Top Selfi Kragilan,3
+3,68,Tubing Kali Blongkeng,4
+3,69,Tubing Sobo Ndeso Sobo Kali,3
+3,70,West Tamp Tubing,3
+3,71,Wisata Vw Borobudur,3
+4,33,Desa Bahasa Borobodur,3
+4,34,Desa Wisata Candirejo,3
+4,35,Festifal Telaga Bleder,3
+4,36,Festival Kali Elo,3
+4,37,Gardu Pandang Mangli,3
+4,38,Gelar Budaya Wanurejo,4
+4,39,Gondo Purowangi,3
+4,40,Gunung Gono,2
+4,41,Ketep Pass,3
+4,42,Little Ubud River Tubing,4
+4,43,Mangli,3
+4,44,Nakula Sadewa,4
+4,45,Pahat Batu Dan Edukasi Tamanagung,3
+4,46,Papringan Sawangan,3
+4,47,Pasar Kebon Watu Gede,3
+4,48,Pemandian Air Hangat Candi Umbul,5
+4,49,Pendakian Gunung Andong Via Pendem,3
+4,50,Pendakian Gunung Andong Via Sawit,3
+4,51,Pendakian Gunung Giyanti,3
+4,52,Prasati Tuk Mas,3
+4,53,Punthuk Mangir Gunung Payung,2
+4,54,Punthuk Mongrong,2
+4,55,Punthuk Setumbu,3
+4,56,River Tubing X-Gono Adventure,3
+4,57,Rumah Camera,4
+4,58,Sendang Hageng Tirta Kencana,4
+4,59,Silancur Higland,4
+4,60,Sleker Asri,3
+4,61,Taman Bunga Pagoda,5
+4,62,Taman Naura,3
+5,42,Little Ubud River Tubing,4
+5,43,Mangli,5
+5,44,Nakula Sadewa,4
+5,45,Pahat Batu Dan Edukasi Tamanagung,4
+5,46,Papringan Sawangan,4
+5,47,Pasar Kebon Watu Gede,4
+5,48,Pemandian Air Hangat Candi Umbul,4
+5,49,Pendakian Gunung Andong Via Pendem,5
+5,50,Pendakian Gunung Andong Via Sawit,5
+5,51,Pendakian Gunung Giyanti,4
+5,52,Prasati Tuk Mas,4
+5,53,Punthuk Mangir Gunung Payung,5
+5,54,Punthuk Mongrong,4
+5,55,Punthuk Setumbu,4
+5,56,River Tubing X-Gono Adventure,5
+5,57,Rumah Camera,4
+5,58,Sendang Hageng Tirta Kencana,4
+5,59,Silancur Higland,5
+5,60,Sleker Asri,4
+5,61,Taman Bunga Pagoda,4
+5,62,Taman Naura,5
+5,63,Taman Ramadanu,5
+5,64,Taman Rekreasi Mendut,4
+5,65,Taman Wisata Kalibening,5
+5,66,Telaga Bleder,4
+5,67,Top Selfi Kragilan,5
+5,68,Tubing Kali Blongkeng,4
+5,69,Tubing Sobo Ndeso Sobo Kali,4
+5,70,West Tamp Tubing,5
+5,71,Wisata Vw Borobudur,5
+6,3,Kebun Bibit Senopati,5
+6,4,Museum Abdul Jalil,5
+6,5,Museum AJB Bumi Putera,5
+6,6,Museum BPK RI,5
+6,7,Museum Diponegoro,5
+6,8,Museum OHD,5
+6,9,Museum Sudirman,5
+6,10,Prasasti Mantyasih,5
+6,11,Taman Kyai Langgeng,5
+6,12,Air Terjun Curug Silawe,5
+6,13,Air Terjun Kedungkayang,5
+6,14,Air Terjun Sekarlangit,5
+6,15,Air Terjun Sumuran Seloprojo,5
+6,16,Arung Jeram Sungai Elo,5
+6,17,Bukit Barede,5
+6,18,Bukit Grenden,5
+6,19,Bukit Rhema,5
+6,20,Candi Asu,5
+6,21,Candi Borobudur,5
+6,22,Candi Gunung Wukir,5
+6,23,Candi Gunungsari,5
+6,24,Candi Losari,5
+6,25,Candi Lumbung Sengi,5
+6,26,Candi Mendut Dan Pawon,5
+6,27,Candi Ngawen,5
+6,28,Candi Pendem,5
+6,29,Candi Retno,5
+6,30,Candi Selogriyo,5
+6,31,Curug Delimas,5
+6,32,Curug Sigetik,5
+7,29,Candi Retno,3
+7,30,Candi Selogriyo,4
+7,31,Curug Delimas,4
+7,32,Curug Sigetik,3
+7,33,Desa Bahasa Borobodur,3
+7,34,Desa Wisata Candirejo,3
+7,35,Festifal Telaga Bleder,3
+7,36,Festival Kali Elo,3
+7,37,Gardu Pandang Mangli,4
+7,38,Gelar Budaya Wanurejo,4
+7,39,Gondo Purowangi,4
+7,40,Gunung Gono,4
+7,41,Ketep Pass,3
+7,42,Little Ubud River Tubing,3
+7,43,Mangli,3
+7,44,Nakula Sadewa,3
+7,45,Pahat Batu Dan Edukasi Tamanagung,3
+7,46,Papringan Sawangan,4
+7,47,Pasar Kebon Watu Gede,3
+7,48,Pemandian Air Hangat Candi Umbul,4
+7,49,Pendakian Gunung Andong Via Pendem,5
+7,50,Pendakian Gunung Andong Via Sawit,5
+7,51,Pendakian Gunung Giyanti,4
+7,52,Prasati Tuk Mas,2
+7,53,Punthuk Mangir Gunung Payung,4
+7,54,Punthuk Mongrong,4
+7,55,Punthuk Setumbu,3
+7,56,River Tubing X-Gono Adventure,4
+7,57,Rumah Camera,2
+7,58,Sendang Hageng Tirta Kencana,3
+8,9,Museum Sudirman,4
+8,10,Prasasti Mantyasih,3
+8,11,Taman Kyai Langgeng,3
+8,12,Air Terjun Curug Silawe,5
+8,13,Air Terjun Kedungkayang,5
+8,14,Air Terjun Sekarlangit,5
+8,15,Air Terjun Sumuran Seloprojo,4
+8,16,Arung Jeram Sungai Elo,3
+8,17,Bukit Barede,4
+8,18,Bukit Grenden,4
+8,19,Bukit Rhema,5
+8,20,Candi Asu,5
+8,21,Candi Borobudur,3
+8,22,Candi Gunung Wukir,4
+8,23,Candi Gunungsari,4
+8,24,Candi Losari,4
+8,25,Candi Lumbung Sengi,3
+8,26,Candi Mendut Dan Pawon,4
+8,27,Candi Ngawen,4
+8,28,Candi Pendem,4
+8,29,Candi Retno,4
+8,30,Candi Selogriyo,4
+8,31,Curug Delimas,5
+8,32,Curug Sigetik,5
+8,33,Desa Bahasa Borobodur,3
+8,34,Desa Wisata Candirejo,3
+8,35,Festifal Telaga Bleder,5
+8,36,Festival Kali Elo,3
+8,37,Gardu Pandang Mangli,5
+8,38,Gelar Budaya Wanurejo,4
+9,42,Little Ubud River Tubing,2
+9,43,Mangli,2
+9,44,Nakula Sadewa,2
+9,45,Pahat Batu Dan Edukasi Tamanagung,3
+9,46,Papringan Sawangan,2
+9,47,Pasar Kebon Watu Gede,4
+9,48,Pemandian Air Hangat Candi Umbul,2
+9,49,Pendakian Gunung Andong Via Pendem,2
+9,50,Pendakian Gunung Andong Via Sawit,2
+9,51,Pendakian Gunung Giyanti,2
+9,52,Prasati Tuk Mas,4
+9,53,Punthuk Mangir Gunung Payung,2
+9,54,Punthuk Mongrong,2
+9,55,Punthuk Setumbu,4
+9,56,River Tubing X-Gono Adventure,2
+9,57,Rumah Camera,1
+9,58,Sendang Hageng Tirta Kencana,4
+9,59,Silancur Higland,2
+9,60,Sleker Asri,2
+9,61,Taman Bunga Pagoda,4
+9,62,Taman Naura,2
+9,63,Taman Ramadanu,2
+9,64,Taman Rekreasi Mendut,2
+9,65,Taman Wisata Kalibening,2
+9,66,Telaga Bleder,2
+9,67,Top Selfi Kragilan,2
+9,68,Tubing Kali Blongkeng,2
+9,69,Tubing Sobo Ndeso Sobo Kali,2
+9,70,West Tamp Tubing,4
+9,71,Wisata Vw Borobudur,2
+10,1,Borobudur International Golf & Country Club,3
+10,2,Gunung Tidar,5
+10,3,Kebun Bibit Senopati,5
+10,4,Museum Abdul Jalil,5
+10,5,Museum AJB Bumi Putera,5
+10,6,Museum BPK RI,5
+10,7,Museum Diponegoro,5
+10,8,Museum OHD,3
+10,9,Museum Sudirman,5
+10,10,Prasasti Mantyasih,3
+10,11,Taman Kyai Langgeng,4
+10,12,Air Terjun Curug Silawe,4
+10,13,Air Terjun Kedungkayang,4
+10,14,Air Terjun Sekarlangit,4
+10,15,Air Terjun Sumuran Seloprojo,4
+10,16,Arung Jeram Sungai Elo,2
+10,17,Bukit Barede,4
+10,18,Bukit Grenden,4
+10,19,Bukit Rhema,5
+10,20,Candi Asu,4
+10,21,Candi Borobudur,4
+10,22,Candi Gunung Wukir,4
+10,23,Candi Gunungsari,5
+10,24,Candi Losari,4
+10,25,Candi Lumbung Sengi,3
+10,26,Candi Mendut Dan Pawon,4
+10,27,Candi Ngawen,5
+10,28,Candi Pendem,4
+10,29,Candi Retno,4
+10,30,Candi Selogriyo,5
+11,10,Prasasti Mantyasih,3
+11,11,Taman Kyai Langgeng,3
+11,12,Air Terjun Curug Silawe,5
+11,13,Air Terjun Kedungkayang,4
+11,14,Air Terjun Sekarlangit,5
+11,15,Air Terjun Sumuran Seloprojo,3
+11,16,Arung Jeram Sungai Elo,3
+11,17,Bukit Barede,4
+11,18,Bukit Grenden,5
+11,19,Bukit Rhema,4
+11,20,Candi Asu,4
+11,21,Candi Borobudur,4
+11,22,Candi Gunung Wukir,5
+11,23,Candi Gunungsari,5
+11,24,Candi Losari,3
+11,25,Candi Lumbung Sengi,3
+11,26,Candi Mendut Dan Pawon,4
+11,27,Candi Ngawen,5
+11,28,Candi Pendem,3
+11,29,Candi Retno,4
+11,30,Candi Selogriyo,5
+11,31,Curug Delimas,4
+11,32,Curug Sigetik,5
+11,33,Desa Bahasa Borobodur,3
+11,34,Desa Wisata Candirejo,3
+11,35,Festifal Telaga Bleder,5
+11,36,Festival Kali Elo,4
+11,37,Gardu Pandang Mangli,5
+11,38,Gelar Budaya Wanurejo,5
+11,39,Gondo Purowangi,4
+12,20,Candi Asu,5
+12,21,Candi Borobudur,2
+12,22,Candi Gunung Wukir,5
+12,23,Candi Gunungsari,5
+12,24,Candi Losari,5
+12,25,Candi Lumbung Sengi,2
+12,26,Candi Mendut Dan Pawon,2
+12,27,Candi Ngawen,5
+12,28,Candi Pendem,2
+12,29,Candi Retno,2
+12,30,Candi Selogriyo,5
+12,31,Curug Delimas,5
+12,32,Curug Sigetik,5
+12,33,Desa Bahasa Borobodur,2
+12,34,Desa Wisata Candirejo,4
+12,35,Festifal Telaga Bleder,4
+12,36,Festival Kali Elo,2
+12,37,Gardu Pandang Mangli,5
+12,38,Gelar Budaya Wanurejo,5
+12,39,Gondo Purowangi,5
+12,40,Gunung Gono,5
+12,41,Ketep Pass,4
+12,42,Little Ubud River Tubing,2
+12,43,Mangli,5
+12,44,Nakula Sadewa,2
+12,45,Pahat Batu Dan Edukasi Tamanagung,4
+12,46,Papringan Sawangan,4
+12,47,Pasar Kebon Watu Gede,2
+12,48,Pemandian Air Hangat Candi Umbul,5
+12,49,Pendakian Gunung Andong Via Pendem,5
+13,1,Borobudur International Golf & Country Club,3
+13,2,Gunung Tidar,3
+13,3,Kebun Bibit Senopati,5
+13,4,Museum Abdul Jalil,5
+13,5,Museum AJB Bumi Putera,5
+13,6,Museum BPK RI,5
+13,7,Museum Diponegoro,5
+13,8,Museum OHD,5
+13,9,Museum Sudirman,5
+13,10,Prasasti Mantyasih,5
+13,11,Taman Kyai Langgeng,3
+13,12,Air Terjun Curug Silawe,4
+13,13,Air Terjun Kedungkayang,4
+13,14,Air Terjun Sekarlangit,4
+13,15,Air Terjun Sumuran Seloprojo,5
+13,16,Arung Jeram Sungai Elo,4
+13,17,Bukit Barede,4
+13,18,Bukit Grenden,3
+13,19,Bukit Rhema,3
+13,20,Candi Asu,4
+13,21,Candi Borobudur,3
+13,22,Candi Gunung Wukir,4
+13,23,Candi Gunungsari,5
+13,24,Candi Losari,3
+13,25,Candi Lumbung Sengi,3
+13,26,Candi Mendut Dan Pawon,5
+13,27,Candi Ngawen,5
+13,28,Candi Pendem,4
+13,29,Candi Retno,3
+13,30,Candi Selogriyo,4
+14,38,Gelar Budaya Wanurejo,3
+14,39,Gondo Purowangi,4
+14,40,Gunung Gono,3
+14,41,Ketep Pass,4
+14,42,Little Ubud River Tubing,3
+14,43,Mangli,1
+14,44,Nakula Sadewa,4
+14,45,Pahat Batu Dan Edukasi Tamanagung,2
+14,46,Papringan Sawangan,2
+14,47,Pasar Kebon Watu Gede,5
+14,48,Pemandian Air Hangat Candi Umbul,5
+14,49,Pendakian Gunung Andong Via Pendem,3
+14,50,Pendakian Gunung Andong Via Sawit,4
+14,51,Pendakian Gunung Giyanti,2
+14,52,Prasati Tuk Mas,5
+14,53,Punthuk Mangir Gunung Payung,5
+14,54,Punthuk Mongrong,4
+14,55,Punthuk Setumbu,4
+14,56,River Tubing X-Gono Adventure,4
+14,57,Rumah Camera,4
+14,58,Sendang Hageng Tirta Kencana,3
+14,59,Silancur Higland,3
+14,60,Sleker Asri,3
+14,61,Taman Bunga Pagoda,1
+14,62,Taman Naura,3
+14,63,Taman Ramadanu,4
+14,64,Taman Rekreasi Mendut,2
+14,65,Taman Wisata Kalibening,5
+14,66,Telaga Bleder,2
+14,67,Top Selfi Kragilan,4
+15,41,Ketep Pass,4
+15,42,Little Ubud River Tubing,4
+15,43,Mangli,4
+15,44,Nakula Sadewa,4
+15,45,Pahat Batu Dan Edukasi Tamanagung,4
+15,46,Papringan Sawangan,4
+15,47,Pasar Kebon Watu Gede,4
+15,48,Pemandian Air Hangat Candi Umbul,4
+15,49,Pendakian Gunung Andong Via Pendem,4
+15,50,Pendakian Gunung Andong Via Sawit,4
+15,51,Pendakian Gunung Giyanti,4
+15,52,Prasati Tuk Mas,4
+15,53,Punthuk Mangir Gunung Payung,4
+15,54,Punthuk Mongrong,4
+15,55,Punthuk Setumbu,4
+15,56,River Tubing X-Gono Adventure,4
+15,57,Rumah Camera,4
+15,58,Sendang Hageng Tirta Kencana,4
+15,59,Silancur Higland,4
+15,60,Sleker Asri,4
+15,61,Taman Bunga Pagoda,4
+15,62,Taman Naura,4
+15,63,Taman Ramadanu,4
+15,64,Taman Rekreasi Mendut,4
+15,65,Taman Wisata Kalibening,4
+15,66,Telaga Bleder,4
+15,67,Top Selfi Kragilan,4
+15,68,Tubing Kali Blongkeng,4
+15,69,Tubing Sobo Ndeso Sobo Kali,4
+15,70,West Tamp Tubing,4
+16,5,Museum AJB Bumi Putera,5
+16,6,Museum BPK RI,5
+16,7,Museum Diponegoro,5
+16,8,Museum OHD,1
+16,9,Museum Sudirman,5
+16,10,Prasasti Mantyasih,2
+16,11,Taman Kyai Langgeng,3
+16,12,Air Terjun Curug Silawe,4
+16,13,Air Terjun Kedungkayang,4
+16,14,Air Terjun Sekarlangit,5
+16,15,Air Terjun Sumuran Seloprojo,4
+16,16,Arung Jeram Sungai Elo,1
+16,17,Bukit Barede,3
+16,18,Bukit Grenden,5
+16,19,Bukit Rhema,5
+16,20,Candi Asu,5
+16,21,Candi Borobudur,3
+16,22,Candi Gunung Wukir,5
+16,23,Candi Gunungsari,5
+16,24,Candi Losari,4
+16,25,Candi Lumbung Sengi,2
+16,26,Candi Mendut Dan Pawon,4
+16,27,Candi Ngawen,5
+16,28,Candi Pendem,4
+16,29,Candi Retno,3
+16,30,Candi Selogriyo,4
+16,31,Curug Delimas,5
+16,32,Curug Sigetik,4
+16,33,Desa Bahasa Borobodur,3
+16,34,Desa Wisata Candirejo,3
+17,1,Borobudur International Golf & Country Club,2
+17,2,Gunung Tidar,4
+17,3,Kebun Bibit Senopati,3
+17,4,Museum Abdul Jalil,3
+17,5,Museum AJB Bumi Putera,5
+17,6,Museum BPK RI,4
+17,7,Museum Diponegoro,5
+17,8,Museum OHD,3
+17,9,Museum Sudirman,5
+17,10,Prasasti Mantyasih,3
+17,11,Taman Kyai Langgeng,3
+17,12,Air Terjun Curug Silawe,5
+17,13,Air Terjun Kedungkayang,5
+17,14,Air Terjun Sekarlangit,5
+17,15,Air Terjun Sumuran Seloprojo,3
+17,16,Arung Jeram Sungai Elo,2
+17,17,Bukit Barede,4
+17,18,Bukit Grenden,5
+17,19,Bukit Rhema,3
+17,20,Candi Asu,5
+17,21,Candi Borobudur,2
+17,22,Candi Gunung Wukir,4
+17,23,Candi Gunungsari,4
+17,24,Candi Losari,4
+17,25,Candi Lumbung Sengi,3
+17,26,Candi Mendut Dan Pawon,4
+17,27,Candi Ngawen,4
+17,28,Candi Pendem,4
+17,29,Candi Retno,3
+17,30,Candi Selogriyo,5
+18,39,Gondo Purowangi,4
+18,40,Gunung Gono,5
+18,41,Ketep Pass,4
+18,42,Little Ubud River Tubing,3
+18,43,Mangli,4
+18,44,Nakula Sadewa,3
+18,45,Pahat Batu Dan Edukasi Tamanagung,4
+18,46,Papringan Sawangan,4
+18,47,Pasar Kebon Watu Gede,3
+18,48,Pemandian Air Hangat Candi Umbul,3
+18,49,Pendakian Gunung Andong Via Pendem,5
+18,50,Pendakian Gunung Andong Via Sawit,3
+18,51,Pendakian Gunung Giyanti,5
+18,52,Prasati Tuk Mas,3
+18,53,Punthuk Mangir Gunung Payung,5
+18,54,Punthuk Mongrong,4
+18,55,Punthuk Setumbu,3
+18,56,River Tubing X-Gono Adventure,3
+18,57,Rumah Camera,3
+18,58,Sendang Hageng Tirta Kencana,4
+18,59,Silancur Higland,3
+18,60,Sleker Asri,4
+18,61,Taman Bunga Pagoda,3
+18,62,Taman Naura,3
+18,63,Taman Ramadanu,4
+18,64,Taman Rekreasi Mendut,3
+18,65,Taman Wisata Kalibening,3
+18,66,Telaga Bleder,4
+18,67,Top Selfi Kragilan,3
+18,68,Tubing Kali Blongkeng,5
+19,11,Taman Kyai Langgeng,5
+19,12,Air Terjun Curug Silawe,5
+19,13,Air Terjun Kedungkayang,5
+19,14,Air Terjun Sekarlangit,5
+19,15,Air Terjun Sumuran Seloprojo,5
+19,16,Arung Jeram Sungai Elo,5
+19,17,Bukit Barede,5
+19,18,Bukit Grenden,5
+19,19,Bukit Rhema,5
+19,20,Candi Asu,5
+19,21,Candi Borobudur,5
+19,22,Candi Gunung Wukir,5
+19,23,Candi Gunungsari,5
+19,24,Candi Losari,5
+19,25,Candi Lumbung Sengi,4
+19,26,Candi Mendut Dan Pawon,5
+19,27,Candi Ngawen,5
+19,28,Candi Pendem,5
+19,29,Candi Retno,5
+19,30,Candi Selogriyo,5
+19,31,Curug Delimas,5
+19,32,Curug Sigetik,5
+19,33,Desa Bahasa Borobodur,5
+19,34,Desa Wisata Candirejo,5
+19,35,Festifal Telaga Bleder,5
+19,36,Festival Kali Elo,5
+19,37,Gardu Pandang Mangli,5
+19,38,Gelar Budaya Wanurejo,5
+19,39,Gondo Purowangi,5
+19,40,Gunung Gono,5
+20,42,Little Ubud River Tubing,3
+20,43,Mangli,3
+20,44,Nakula Sadewa,2
+20,45,Pahat Batu Dan Edukasi Tamanagung,3
+20,46,Papringan Sawangan,3
+20,47,Pasar Kebon Watu Gede,3
+20,48,Pemandian Air Hangat Candi Umbul,3
+20,49,Pendakian Gunung Andong Via Pendem,3
+20,50,Pendakian Gunung Andong Via Sawit,3
+20,51,Pendakian Gunung Giyanti,3
+20,52,Prasati Tuk Mas,2
+20,53,Punthuk Mangir Gunung Payung,5
+20,54,Punthuk Mongrong,3
+20,55,Punthuk Setumbu,3
+20,56,River Tubing X-Gono Adventure,2
+20,57,Rumah Camera,3
+20,58,Sendang Hageng Tirta Kencana,3
+20,59,Silancur Higland,3
+20,60,Sleker Asri,4
+20,61,Taman Bunga Pagoda,3
+20,62,Taman Naura,3
+20,63,Taman Ramadanu,3
+20,64,Taman Rekreasi Mendut,3
+20,65,Taman Wisata Kalibening,3
+20,66,Telaga Bleder,3
+20,67,Top Selfi Kragilan,3
+20,68,Tubing Kali Blongkeng,4
+20,69,Tubing Sobo Ndeso Sobo Kali,3
+20,70,West Tamp Tubing,3
+20,71,Wisata Vw Borobudur,3
+21,1,Borobudur International Golf & Country Club,5
+21,2,Gunung Tidar,5
+21,3,Kebun Bibit Senopati,5
+21,4,Museum Abdul Jalil,5
+21,5,Museum AJB Bumi Putera,5
+21,6,Museum BPK RI,3
+21,7,Museum Diponegoro,5
+21,8,Museum OHD,5
+21,9,Museum Sudirman,5
+21,10,Prasasti Mantyasih,5
+21,11,Taman Kyai Langgeng,5
+21,12,Air Terjun Curug Silawe,5
+21,13,Air Terjun Kedungkayang,5
+21,14,Air Terjun Sekarlangit,5
+21,15,Air Terjun Sumuran Seloprojo,5
+21,16,Arung Jeram Sungai Elo,5
+21,17,Bukit Barede,5
+21,18,Bukit Grenden,5
+21,19,Bukit Rhema,5
+21,20,Candi Asu,5
+21,21,Candi Borobudur,5
+21,22,Candi Gunung Wukir,5
+21,23,Candi Gunungsari,5
+21,24,Candi Losari,5
+21,25,Candi Lumbung Sengi,5
+21,26,Candi Mendut Dan Pawon,5
+21,27,Candi Ngawen,5
+21,28,Candi Pendem,5
+21,29,Candi Retno,5
+21,30,Candi Selogriyo,5
+22,25,Candi Lumbung Sengi,2
+22,26,Candi Mendut Dan Pawon,5
+22,27,Candi Ngawen,3
+22,28,Candi Pendem,4
+22,29,Candi Retno,5
+22,30,Candi Selogriyo,3
+22,31,Curug Delimas,4
+22,32,Curug Sigetik,5
+22,33,Desa Bahasa Borobodur,5
+22,34,Desa Wisata Candirejo,4
+22,35,Festifal Telaga Bleder,3
+22,36,Festival Kali Elo,5
+22,37,Gardu Pandang Mangli,3
+22,38,Gelar Budaya Wanurejo,5
+22,39,Gondo Purowangi,3
+22,40,Gunung Gono,5
+22,41,Ketep Pass,3
+22,42,Little Ubud River Tubing,3
+22,43,Mangli,4
+22,44,Nakula Sadewa,4
+22,45,Pahat Batu Dan Edukasi Tamanagung,3
+22,46,Papringan Sawangan,4
+22,47,Pasar Kebon Watu Gede,5
+22,48,Pemandian Air Hangat Candi Umbul,3
+22,49,Pendakian Gunung Andong Via Pendem,4
+22,50,Pendakian Gunung Andong Via Sawit,4
+22,51,Pendakian Gunung Giyanti,4
+22,52,Prasati Tuk Mas,4
+22,53,Punthuk Mangir Gunung Payung,4
+22,54,Punthuk Mongrong,4
+23,40,Gunung Gono,4
+23,41,Ketep Pass,4
+23,42,Little Ubud River Tubing,4
+23,43,Mangli,4
+23,44,Nakula Sadewa,4
+23,45,Pahat Batu Dan Edukasi Tamanagung,4
+23,46,Papringan Sawangan,4
+23,47,Pasar Kebon Watu Gede,4
+23,48,Pemandian Air Hangat Candi Umbul,5
+23,49,Pendakian Gunung Andong Via Pendem,4
+23,50,Pendakian Gunung Andong Via Sawit,4
+23,51,Pendakian Gunung Giyanti,4
+23,52,Prasati Tuk Mas,4
+23,53,Punthuk Mangir Gunung Payung,4
+23,54,Punthuk Mongrong,4
+23,55,Punthuk Setumbu,4
+23,56,River Tubing X-Gono Adventure,4
+23,57,Rumah Camera,4
+23,58,Sendang Hageng Tirta Kencana,4
+23,59,Silancur Higland,4
+23,60,Sleker Asri,4
+23,61,Taman Bunga Pagoda,4
+23,62,Taman Naura,4
+23,63,Taman Ramadanu,4
+23,64,Taman Rekreasi Mendut,5
+23,65,Taman Wisata Kalibening,4
+23,66,Telaga Bleder,4
+23,67,Top Selfi Kragilan,4
+23,68,Tubing Kali Blongkeng,4
+23,69,Tubing Sobo Ndeso Sobo Kali,4
+24,7,Museum Diponegoro,5
+24,8,Museum OHD,4
+24,9,Museum Sudirman,5
+24,10,Prasasti Mantyasih,3
+24,11,Taman Kyai Langgeng,4
+24,12,Air Terjun Curug Silawe,2
+24,13,Air Terjun Kedungkayang,5
+24,14,Air Terjun Sekarlangit,5
+24,15,Air Terjun Sumuran Seloprojo,5
+24,16,Arung Jeram Sungai Elo,5
+24,17,Bukit Barede,5
+24,18,Bukit Grenden,5
+24,19,Bukit Rhema,3
+24,20,Candi Asu,4
+24,21,Candi Borobudur,5
+24,22,Candi Gunung Wukir,5
+24,23,Candi Gunungsari,4
+24,24,Candi Losari,4
+24,25,Candi Lumbung Sengi,4
+24,26,Candi Mendut Dan Pawon,3
+24,27,Candi Ngawen,5
+24,28,Candi Pendem,5
+24,29,Candi Retno,4
+24,30,Candi Selogriyo,4
+24,31,Curug Delimas,4
+24,32,Curug Sigetik,5
+24,33,Desa Bahasa Borobodur,5
+24,34,Desa Wisata Candirejo,5
+24,35,Festifal Telaga Bleder,4
+24,36,Festival Kali Elo,3
+25,37,Gardu Pandang Mangli,5
+25,38,Gelar Budaya Wanurejo,2
+25,39,Gondo Purowangi,5
+25,40,Gunung Gono,5
+25,41,Ketep Pass,4
+25,42,Little Ubud River Tubing,2
+25,43,Mangli,4
+25,44,Nakula Sadewa,3
+25,45,Pahat Batu Dan Edukasi Tamanagung,3
+25,46,Papringan Sawangan,4
+25,47,Pasar Kebon Watu Gede,3
+25,48,Pemandian Air Hangat Candi Umbul,4
+25,49,Pendakian Gunung Andong Via Pendem,5
+25,50,Pendakian Gunung Andong Via Sawit,4
+25,51,Pendakian Gunung Giyanti,4
+25,52,Prasati Tuk Mas,3
+25,53,Punthuk Mangir Gunung Payung,5
+25,54,Punthuk Mongrong,5
+25,55,Punthuk Setumbu,3
+25,56,River Tubing X-Gono Adventure,3
+25,57,Rumah Camera,4
+25,58,Sendang Hageng Tirta Kencana,5
+25,59,Silancur Higland,4
+25,60,Sleker Asri,4
+25,61,Taman Bunga Pagoda,4
+25,62,Taman Naura,4
+25,63,Taman Ramadanu,4
+25,64,Taman Rekreasi Mendut,4
+25,65,Taman Wisata Kalibening,3
+25,66,Telaga Bleder,5
+26,43,Mangli,3
+26,44,Nakula Sadewa,4
+26,45,Pahat Batu Dan Edukasi Tamanagung,3
+26,46,Papringan Sawangan,5
+26,47,Pasar Kebon Watu Gede,4
+26,48,Pemandian Air Hangat Candi Umbul,5
+26,49,Pendakian Gunung Andong Via Pendem,4
+26,50,Pendakian Gunung Andong Via Sawit,5
+26,51,Pendakian Gunung Giyanti,3
+26,52,Prasati Tuk Mas,4
+26,53,Punthuk Mangir Gunung Payung,5
+26,54,Punthuk Mongrong,4
+26,55,Punthuk Setumbu,5
+26,56,River Tubing X-Gono Adventure,2
+26,57,Rumah Camera,5
+26,58,Sendang Hageng Tirta Kencana,4
+26,59,Silancur Higland,5
+26,60,Sleker Asri,3
+26,61,Taman Bunga Pagoda,5
+26,62,Taman Naura,5
+26,63,Taman Ramadanu,5
+26,64,Taman Rekreasi Mendut,4
+26,65,Taman Wisata Kalibening,3
+26,66,Telaga Bleder,4
+26,67,Top Selfi Kragilan,4
+26,68,Tubing Kali Blongkeng,4
+26,69,Tubing Sobo Ndeso Sobo Kali,5
+26,70,West Tamp Tubing,4
+26,71,Wisata Vw Borobudur,5
+26,36,Festival Kali Elo,5
+27,8,Museum OHD,3
+27,9,Museum Sudirman,3
+27,10,Prasasti Mantyasih,4
+27,11,Taman Kyai Langgeng,3
+27,12,Air Terjun Curug Silawe,5
+27,13,Air Terjun Kedungkayang,3
+27,14,Air Terjun Sekarlangit,2
+27,15,Air Terjun Sumuran Seloprojo,4
+27,16,Arung Jeram Sungai Elo,4
+27,17,Bukit Barede,4
+27,18,Bukit Grenden,4
+27,19,Bukit Rhema,5
+27,20,Candi Asu,4
+27,21,Candi Borobudur,4
+27,22,Candi Gunung Wukir,3
+27,23,Candi Gunungsari,4
+27,24,Candi Losari,4
+27,25,Candi Lumbung Sengi,3
+27,26,Candi Mendut Dan Pawon,3
+27,27,Candi Ngawen,4
+27,28,Candi Pendem,4
+27,29,Candi Retno,4
+27,30,Candi Selogriyo,5
+27,31,Curug Delimas,4
+27,32,Curug Sigetik,3
+27,33,Desa Bahasa Borobodur,5
+27,34,Desa Wisata Candirejo,3
+27,35,Festifal Telaga Bleder,4
+27,36,Festival Kali Elo,4
+27,37,Gardu Pandang Mangli,4
+28,41,Ketep Pass,4
+28,42,Little Ubud River Tubing,3
+28,43,Mangli,3
+28,44,Nakula Sadewa,3
+28,45,Pahat Batu Dan Edukasi Tamanagung,3
+28,46,Papringan Sawangan,3
+28,47,Pasar Kebon Watu Gede,3
+28,48,Pemandian Air Hangat Candi Umbul,5
+28,49,Pendakian Gunung Andong Via Pendem,4
+28,50,Pendakian Gunung Andong Via Sawit,3
+28,51,Pendakian Gunung Giyanti,3
+28,52,Prasati Tuk Mas,3
+28,53,Punthuk Mangir Gunung Payung,4
+28,54,Punthuk Mongrong,4
+28,55,Punthuk Setumbu,4
+28,56,River Tubing X-Gono Adventure,3
+28,57,Rumah Camera,4
+28,58,Sendang Hageng Tirta Kencana,3
+28,59,Silancur Higland,3
+28,60,Sleker Asri,4
+28,61,Taman Bunga Pagoda,4
+28,62,Taman Naura,4
+28,63,Taman Ramadanu,3
+28,64,Taman Rekreasi Mendut,3
+28,65,Taman Wisata Kalibening,3
+28,66,Telaga Bleder,4
+28,67,Top Selfi Kragilan,4
+28,68,Tubing Kali Blongkeng,3
+28,69,Tubing Sobo Ndeso Sobo Kali,3
+28,70,West Tamp Tubing,2
+29,1,Borobudur International Golf & Country Club,5
+29,2,Gunung Tidar,4
+29,3,Kebun Bibit Senopati,3
+29,4,Museum Abdul Jalil,4
+29,5,Museum AJB Bumi Putera,5
+29,6,Museum BPK RI,5
+29,7,Museum Diponegoro,5
+29,8,Museum OHD,4
+29,9,Museum Sudirman,4
+29,10,Prasasti Mantyasih,4
+29,11,Taman Kyai Langgeng,4
+29,12,Air Terjun Curug Silawe,4
+29,13,Air Terjun Kedungkayang,5
+29,14,Air Terjun Sekarlangit,4
+29,15,Air Terjun Sumuran Seloprojo,3
+29,16,Arung Jeram Sungai Elo,4
+29,17,Bukit Barede,2
+29,18,Bukit Grenden,4
+29,19,Bukit Rhema,4
+29,20,Candi Asu,3
+29,21,Candi Borobudur,3
+29,22,Candi Gunung Wukir,3
+29,23,Candi Gunungsari,5
+29,24,Candi Losari,5
+29,25,Candi Lumbung Sengi,2
+29,26,Candi Mendut Dan Pawon,3
+29,27,Candi Ngawen,4
+29,28,Candi Pendem,3
+29,29,Candi Retno,4
+29,30,Candi Selogriyo,5
+30,35,Festifal Telaga Bleder,4
+30,36,Festival Kali Elo,1
+30,37,Gardu Pandang Mangli,4
+30,38,Gelar Budaya Wanurejo,3
+30,39,Gondo Purowangi,4
+30,40,Gunung Gono,5
+30,41,Ketep Pass,3
+30,42,Little Ubud River Tubing,2
+30,43,Mangli,3
+30,44,Nakula Sadewa,3
+30,45,Pahat Batu Dan Edukasi Tamanagung,3
+30,46,Papringan Sawangan,3
+30,47,Pasar Kebon Watu Gede,3
+30,48,Pemandian Air Hangat Candi Umbul,4
+30,49,Pendakian Gunung Andong Via Pendem,5
+30,50,Pendakian Gunung Andong Via Sawit,5
+30,51,Pendakian Gunung Giyanti,5
+30,52,Prasati Tuk Mas,2
+30,53,Punthuk Mangir Gunung Payung,5
+30,54,Punthuk Mongrong,3
+30,55,Punthuk Setumbu,3
+30,56,River Tubing X-Gono Adventure,3
+30,57,Rumah Camera,3
+30,58,Sendang Hageng Tirta Kencana,3
+30,59,Silancur Higland,4
+30,60,Sleker Asri,5
+30,61,Taman Bunga Pagoda,3
+30,62,Taman Naura,3
+30,63,Taman Ramadanu,4
+30,64,Taman Rekreasi Mendut,3
+31,42,Little Ubud River Tubing,4
+31,43,Mangli,4
+31,44,Nakula Sadewa,2
+31,45,Pahat Batu Dan Edukasi Tamanagung,4
+31,46,Papringan Sawangan,5
+31,47,Pasar Kebon Watu Gede,2
+31,48,Pemandian Air Hangat Candi Umbul,4
+31,49,Pendakian Gunung Andong Via Pendem,5
+31,50,Pendakian Gunung Andong Via Sawit,3
+31,51,Pendakian Gunung Giyanti,4
+31,52,Prasati Tuk Mas,2
+31,53,Punthuk Mangir Gunung Payung,4
+31,54,Punthuk Mongrong,5
+31,55,Punthuk Setumbu,2
+31,56,River Tubing X-Gono Adventure,2
+31,57,Rumah Camera,3
+31,58,Sendang Hageng Tirta Kencana,5
+31,59,Silancur Higland,4
+31,60,Sleker Asri,4
+31,61,Taman Bunga Pagoda,5
+31,62,Taman Naura,4
+31,63,Taman Ramadanu,5
+31,64,Taman Rekreasi Mendut,5
+31,65,Taman Wisata Kalibening,4
+31,66,Telaga Bleder,4
+31,67,Top Selfi Kragilan,5
+31,68,Tubing Kali Blongkeng,3
+31,69,Tubing Sobo Ndeso Sobo Kali,5
+31,70,West Tamp Tubing,3
+31,71,Wisata Vw Borobudur,3
+32,22,Candi Gunung Wukir,4
+32,23,Candi Gunungsari,4
+32,24,Candi Losari,4
+32,25,Candi Lumbung Sengi,3
+32,26,Candi Mendut Dan Pawon,4
+32,27,Candi Ngawen,4
+32,28,Candi Pendem,4
+32,29,Candi Retno,3
+32,30,Candi Selogriyo,5
+32,31,Curug Delimas,5
+32,32,Curug Sigetik,5
+32,33,Desa Bahasa Borobodur,3
+32,34,Desa Wisata Candirejo,3
+32,35,Festifal Telaga Bleder,3
+32,36,Festival Kali Elo,3
+32,37,Gardu Pandang Mangli,4
+32,38,Gelar Budaya Wanurejo,5
+32,39,Gondo Purowangi,5
+32,40,Gunung Gono,3
+32,41,Ketep Pass,5
+32,42,Little Ubud River Tubing,4
+32,43,Mangli,4
+32,44,Nakula Sadewa,3
+32,45,Pahat Batu Dan Edukasi Tamanagung,3
+32,46,Papringan Sawangan,5
+32,47,Pasar Kebon Watu Gede,3
+32,48,Pemandian Air Hangat Candi Umbul,5
+32,49,Pendakian Gunung Andong Via Pendem,5
+32,50,Pendakian Gunung Andong Via Sawit,5
+32,51,Pendakian Gunung Giyanti,2
+33,2,Gunung Tidar,5
+33,3,Kebun Bibit Senopati,4
+33,4,Museum Abdul Jalil,4
+33,5,Museum AJB Bumi Putera,2
+33,6,Museum BPK RI,5
+33,7,Museum Diponegoro,5
+33,8,Museum OHD,3
+33,9,Museum Sudirman,5
+33,10,Prasasti Mantyasih,3
+33,11,Taman Kyai Langgeng,4
+33,12,Air Terjun Curug Silawe,5
+33,13,Air Terjun Kedungkayang,4
+33,14,Air Terjun Sekarlangit,5
+33,15,Air Terjun Sumuran Seloprojo,4
+33,16,Arung Jeram Sungai Elo,2
+33,17,Bukit Barede,2
+33,18,Bukit Grenden,3
+33,19,Bukit Rhema,5
+33,20,Candi Asu,5
+33,21,Candi Borobudur,4
+33,22,Candi Gunung Wukir,5
+33,23,Candi Gunungsari,2
+33,24,Candi Losari,4
+33,25,Candi Lumbung Sengi,3
+33,26,Candi Mendut Dan Pawon,5
+33,27,Candi Ngawen,5
+33,28,Candi Pendem,3
+33,29,Candi Retno,3
+33,30,Candi Selogriyo,4
+33,31,Curug Delimas,4
+34,42,Little Ubud River Tubing,5
+34,43,Mangli,4
+34,44,Nakula Sadewa,1
+34,45,Pahat Batu Dan Edukasi Tamanagung,3
+34,46,Papringan Sawangan,3
+34,47,Pasar Kebon Watu Gede,3
+34,48,Pemandian Air Hangat Candi Umbul,3
+34,49,Pendakian Gunung Andong Via Pendem,5
+34,50,Pendakian Gunung Andong Via Sawit,3
+34,51,Pendakian Gunung Giyanti,5
+34,52,Prasati Tuk Mas,4
+34,53,Punthuk Mangir Gunung Payung,4
+34,54,Punthuk Mongrong,1
+34,55,Punthuk Setumbu,2
+34,56,River Tubing X-Gono Adventure,2
+34,57,Rumah Camera,5
+34,58,Sendang Hageng Tirta Kencana,5
+34,59,Silancur Higland,5
+34,60,Sleker Asri,5
+34,61,Taman Bunga Pagoda,3
+34,62,Taman Naura,4
+34,63,Taman Ramadanu,3
+34,64,Taman Rekreasi Mendut,2
+34,65,Taman Wisata Kalibening,4
+34,66,Telaga Bleder,3
+34,67,Top Selfi Kragilan,5
+34,68,Tubing Kali Blongkeng,3
+34,69,Tubing Sobo Ndeso Sobo Kali,4
+34,70,West Tamp Tubing,4
+34,71,Wisata Vw Borobudur,2
+35,12,Air Terjun Curug Silawe,5
+35,13,Air Terjun Kedungkayang,5
+35,14,Air Terjun Sekarlangit,4
+35,15,Air Terjun Sumuran Seloprojo,4
+35,16,Arung Jeram Sungai Elo,4
+35,17,Bukit Barede,4
+35,18,Bukit Grenden,5
+35,19,Bukit Rhema,4
+35,20,Candi Asu,5
+35,21,Candi Borobudur,4
+35,22,Candi Gunung Wukir,4
+35,23,Candi Gunungsari,3
+35,24,Candi Losari,4
+35,25,Candi Lumbung Sengi,3
+35,26,Candi Mendut Dan Pawon,4
+35,27,Candi Ngawen,5
+35,28,Candi Pendem,4
+35,29,Candi Retno,5
+35,30,Candi Selogriyo,4
+35,31,Curug Delimas,5
+35,32,Curug Sigetik,4
+35,33,Desa Bahasa Borobodur,3
+35,34,Desa Wisata Candirejo,4
+35,35,Festifal Telaga Bleder,5
+35,36,Festival Kali Elo,3
+35,37,Gardu Pandang Mangli,5
+35,38,Gelar Budaya Wanurejo,5
+35,39,Gondo Purowangi,4
+35,40,Gunung Gono,3
+35,41,Ketep Pass,3
+36,42,Little Ubud River Tubing,2
+36,43,Mangli,4
+36,44,Nakula Sadewa,3
+36,45,Pahat Batu Dan Edukasi Tamanagung,3
+36,46,Papringan Sawangan,4
+36,47,Pasar Kebon Watu Gede,3
+36,48,Pemandian Air Hangat Candi Umbul,3
+36,49,Pendakian Gunung Andong Via Pendem,4
+36,50,Pendakian Gunung Andong Via Sawit,4
+36,51,Pendakian Gunung Giyanti,4
+36,52,Prasati Tuk Mas,4
+36,53,Punthuk Mangir Gunung Payung,3
+36,54,Punthuk Mongrong,3
+36,55,Punthuk Setumbu,3
+36,56,River Tubing X-Gono Adventure,4
+36,57,Rumah Camera,4
+36,58,Sendang Hageng Tirta Kencana,3
+36,59,Silancur Higland,3
+36,60,Sleker Asri,5
+36,61,Taman Bunga Pagoda,4
+36,62,Taman Naura,4
+36,63,Taman Ramadanu,4
+36,64,Taman Rekreasi Mendut,3
+36,65,Taman Wisata Kalibening,2
+36,66,Telaga Bleder,4
+36,67,Top Selfi Kragilan,4
+36,68,Tubing Kali Blongkeng,5
+36,69,Tubing Sobo Ndeso Sobo Kali,3
+36,70,West Tamp Tubing,4
+36,71,Wisata Vw Borobudur,3
+37,6,Museum BPK RI,4
+37,7,Museum Diponegoro,4
+37,8,Museum OHD,4
+37,9,Museum Sudirman,4
+37,10,Prasasti Mantyasih,3
+37,11,Taman Kyai Langgeng,4
+37,12,Air Terjun Curug Silawe,4
+37,13,Air Terjun Kedungkayang,4
+37,14,Air Terjun Sekarlangit,4
+37,15,Air Terjun Sumuran Seloprojo,4
+37,16,Arung Jeram Sungai Elo,2
+37,17,Bukit Barede,4
+37,18,Bukit Grenden,4
+37,19,Bukit Rhema,4
+37,20,Candi Asu,4
+37,21,Candi Borobudur,3
+37,22,Candi Gunung Wukir,4
+37,23,Candi Gunungsari,4
+37,24,Candi Losari,2
+37,25,Candi Lumbung Sengi,2
+37,26,Candi Mendut Dan Pawon,4
+37,27,Candi Ngawen,4
+37,28,Candi Pendem,4
+37,29,Candi Retno,3
+37,30,Candi Selogriyo,4
+37,31,Curug Delimas,3
+37,32,Curug Sigetik,4
+37,33,Desa Bahasa Borobodur,3
+37,34,Desa Wisata Candirejo,4
+37,35,Festifal Telaga Bleder,4
+38,38,Gelar Budaya Wanurejo,4
+38,39,Gondo Purowangi,5
+38,40,Gunung Gono,4
+38,41,Ketep Pass,3
+38,42,Little Ubud River Tubing,3
+38,43,Mangli,4
+38,44,Nakula Sadewa,3
+38,45,Pahat Batu Dan Edukasi Tamanagung,4
+38,46,Papringan Sawangan,4
+38,47,Pasar Kebon Watu Gede,3
+38,48,Pemandian Air Hangat Candi Umbul,4
+38,49,Pendakian Gunung Andong Via Pendem,5
+38,50,Pendakian Gunung Andong Via Sawit,4
+38,51,Pendakian Gunung Giyanti,4
+38,52,Prasati Tuk Mas,3
+38,53,Punthuk Mangir Gunung Payung,4
+38,54,Punthuk Mongrong,3
+38,55,Punthuk Setumbu,4
+38,56,River Tubing X-Gono Adventure,4
+38,57,Rumah Camera,4
+38,58,Sendang Hageng Tirta Kencana,3
+38,59,Silancur Higland,4
+38,60,Sleker Asri,4
+38,61,Taman Bunga Pagoda,5
+38,62,Taman Naura,4
+38,63,Taman Ramadanu,4
+38,64,Taman Rekreasi Mendut,5
+38,65,Taman Wisata Kalibening,5
+38,66,Telaga Bleder,4
+38,67,Top Selfi Kragilan,3
+39,1,Borobudur International Golf & Country Club,4
+39,2,Gunung Tidar,4
+39,3,Kebun Bibit Senopati,3
+39,4,Museum Abdul Jalil,5
+39,5,Museum AJB Bumi Putera,4
+39,6,Museum BPK RI,3
+39,7,Museum Diponegoro,5
+39,8,Museum OHD,4
+39,9,Museum Sudirman,4
+39,10,Prasasti Mantyasih,3
+39,11,Taman Kyai Langgeng,5
+39,12,Air Terjun Curug Silawe,4
+39,13,Air Terjun Kedungkayang,4
+39,14,Air Terjun Sekarlangit,4
+39,15,Air Terjun Sumuran Seloprojo,4
+39,16,Arung Jeram Sungai Elo,5
+39,17,Bukit Barede,5
+39,18,Bukit Grenden,4
+39,19,Bukit Rhema,3
+39,20,Candi Asu,4
+39,21,Candi Borobudur,4
+39,22,Candi Gunung Wukir,5
+39,23,Candi Gunungsari,4
+39,24,Candi Losari,4
+39,25,Candi Lumbung Sengi,3
+39,26,Candi Mendut Dan Pawon,5
+39,27,Candi Ngawen,4
+39,28,Candi Pendem,4
+39,29,Candi Retno,3
+39,30,Candi Selogriyo,5
+40,31,Curug Delimas,3
+40,32,Curug Sigetik,4
+40,33,Desa Bahasa Borobodur,4
+40,34,Desa Wisata Candirejo,3
+40,35,Festifal Telaga Bleder,4
+40,36,Festival Kali Elo,2
+40,37,Gardu Pandang Mangli,4
+40,38,Gelar Budaya Wanurejo,4
+40,39,Gondo Purowangi,3
+40,40,Gunung Gono,4
+40,41,Ketep Pass,3
+40,42,Little Ubud River Tubing,3
+40,43,Mangli,3
+40,44,Nakula Sadewa,3
+40,45,Pahat Batu Dan Edukasi Tamanagung,3
+40,46,Papringan Sawangan,4
+40,47,Pasar Kebon Watu Gede,3
+40,48,Pemandian Air Hangat Candi Umbul,4
+40,49,Pendakian Gunung Andong Via Pendem,4
+40,50,Pendakian Gunung Andong Via Sawit,5
+40,51,Pendakian Gunung Giyanti,4
+40,52,Prasati Tuk Mas,5
+40,53,Punthuk Mangir Gunung Payung,5
+40,54,Punthuk Mongrong,4
+40,55,Punthuk Setumbu,3
+40,56,River Tubing X-Gono Adventure,4
+40,57,Rumah Camera,3
+40,58,Sendang Hageng Tirta Kencana,3
+40,59,Silancur Higland,3
+40,60,Sleker Asri,3
+41,37,Gardu Pandang Mangli,5
+41,38,Gelar Budaya Wanurejo,5
+41,39,Gondo Purowangi,5
+41,40,Gunung Gono,5
+41,41,Ketep Pass,5
+41,42,Little Ubud River Tubing,3
+41,43,Mangli,5
+41,44,Nakula Sadewa,3
+41,45,Pahat Batu Dan Edukasi Tamanagung,2
+41,46,Papringan Sawangan,5
+41,47,Pasar Kebon Watu Gede,3
+41,48,Pemandian Air Hangat Candi Umbul,5
+41,49,Pendakian Gunung Andong Via Pendem,5
+41,50,Pendakian Gunung Andong Via Sawit,5
+41,51,Pendakian Gunung Giyanti,5
+41,52,Prasati Tuk Mas,5
+41,53,Punthuk Mangir Gunung Payung,5
+41,54,Punthuk Mongrong,5
+41,55,Punthuk Setumbu,5
+41,56,River Tubing X-Gono Adventure,3
+41,57,Rumah Camera,3
+41,58,Sendang Hageng Tirta Kencana,5
+41,59,Silancur Higland,5
+41,60,Sleker Asri,5
+41,61,Taman Bunga Pagoda,4
+41,62,Taman Naura,3
+41,63,Taman Ramadanu,5
+41,64,Taman Rekreasi Mendut,3
+41,65,Taman Wisata Kalibening,3
+41,66,Telaga Bleder,5
+42,38,Gelar Budaya Wanurejo,4
+42,39,Gondo Purowangi,4
+42,40,Gunung Gono,5
+42,41,Ketep Pass,4
+42,42,Little Ubud River Tubing,3
+42,43,Mangli,2
+42,44,Nakula Sadewa,3
+42,45,Pahat Batu Dan Edukasi Tamanagung,3
+42,46,Papringan Sawangan,4
+42,47,Pasar Kebon Watu Gede,4
+42,48,Pemandian Air Hangat Candi Umbul,3
+42,49,Pendakian Gunung Andong Via Pendem,4
+42,50,Pendakian Gunung Andong Via Sawit,4
+42,51,Pendakian Gunung Giyanti,4
+42,52,Prasati Tuk Mas,4
+42,53,Punthuk Mangir Gunung Payung,3
+42,54,Punthuk Mongrong,4
+42,55,Punthuk Setumbu,4
+42,56,River Tubing X-Gono Adventure,3
+42,57,Rumah Camera,4
+42,58,Sendang Hageng Tirta Kencana,4
+42,59,Silancur Higland,5
+42,60,Sleker Asri,3
+42,61,Taman Bunga Pagoda,3
+42,62,Taman Naura,3
+42,63,Taman Ramadanu,5
+42,64,Taman Rekreasi Mendut,3
+42,65,Taman Wisata Kalibening,4
+42,66,Telaga Bleder,4
+42,67,Top Selfi Kragilan,3
+43,9,Museum Sudirman,4
+43,10,Prasasti Mantyasih,4
+43,11,Taman Kyai Langgeng,4
+43,12,Air Terjun Curug Silawe,5
+43,13,Air Terjun Kedungkayang,4
+43,14,Air Terjun Sekarlangit,4
+43,15,Air Terjun Sumuran Seloprojo,5
+43,16,Arung Jeram Sungai Elo,5
+43,17,Bukit Barede,4
+43,18,Bukit Grenden,4
+43,19,Bukit Rhema,5
+43,20,Candi Asu,4
+43,21,Candi Borobudur,5
+43,22,Candi Gunung Wukir,4
+43,23,Candi Gunungsari,3
+43,24,Candi Losari,5
+43,25,Candi Lumbung Sengi,4
+43,26,Candi Mendut Dan Pawon,4
+43,27,Candi Ngawen,4
+43,28,Candi Pendem,4
+43,29,Candi Retno,4
+43,30,Candi Selogriyo,4
+43,31,Curug Delimas,4
+43,32,Curug Sigetik,4
+43,33,Desa Bahasa Borobodur,4
+43,34,Desa Wisata Candirejo,4
+43,35,Festifal Telaga Bleder,4
+43,36,Festival Kali Elo,4
+43,37,Gardu Pandang Mangli,4
+43,38,Gelar Budaya Wanurejo,4
+44,17,Bukit Barede,4
+44,18,Bukit Grenden,4
+44,19,Bukit Rhema,5
+44,20,Candi Asu,5
+44,21,Candi Borobudur,1
+44,22,Candi Gunung Wukir,4
+44,23,Candi Gunungsari,4
+44,24,Candi Losari,3
+44,25,Candi Lumbung Sengi,1
+44,26,Candi Mendut Dan Pawon,4
+44,27,Candi Ngawen,5
+44,28,Candi Pendem,3
+44,29,Candi Retno,2
+44,30,Candi Selogriyo,5
+44,31,Curug Delimas,4
+44,32,Curug Sigetik,4
+44,33,Desa Bahasa Borobodur,2
+44,34,Desa Wisata Candirejo,2
+44,35,Festifal Telaga Bleder,4
+44,36,Festival Kali Elo,1
+44,37,Gardu Pandang Mangli,4
+44,38,Gelar Budaya Wanurejo,5
+44,39,Gondo Purowangi,4
+44,40,Gunung Gono,4
+44,41,Ketep Pass,3
+44,42,Little Ubud River Tubing,2
+44,43,Mangli,4
+44,44,Nakula Sadewa,2
+44,45,Pahat Batu Dan Edukasi Tamanagung,3
+44,46,Papringan Sawangan,4
+45,43,Mangli,2
+45,44,Nakula Sadewa,4
+45,45,Pahat Batu Dan Edukasi Tamanagung,5
+45,46,Papringan Sawangan,3
+45,47,Pasar Kebon Watu Gede,4
+45,48,Pemandian Air Hangat Candi Umbul,2
+45,49,Pendakian Gunung Andong Via Pendem,5
+45,50,Pendakian Gunung Andong Via Sawit,4
+45,51,Pendakian Gunung Giyanti,3
+45,52,Prasati Tuk Mas,1
+45,53,Punthuk Mangir Gunung Payung,3
+45,54,Punthuk Mongrong,4
+45,55,Punthuk Setumbu,3
+45,56,River Tubing X-Gono Adventure,5
+45,57,Rumah Camera,3
+45,58,Sendang Hageng Tirta Kencana,3
+45,59,Silancur Higland,4
+45,60,Sleker Asri,2
+45,61,Taman Bunga Pagoda,2
+45,62,Taman Naura,3
+45,63,Taman Ramadanu,5
+45,64,Taman Rekreasi Mendut,4
+45,65,Taman Wisata Kalibening,3
+45,66,Telaga Bleder,1
+45,67,Top Selfi Kragilan,2
+45,68,Tubing Kali Blongkeng,2
+45,69,Tubing Sobo Ndeso Sobo Kali,5
+45,70,West Tamp Tubing,5
+45,71,Wisata Vw Borobudur,5
+45,24,Candi Losari,2
+46,31,Curug Delimas,3
+46,32,Curug Sigetik,2
+46,33,Desa Bahasa Borobodur,5
+46,34,Desa Wisata Candirejo,1
+46,35,Festifal Telaga Bleder,3
+46,36,Festival Kali Elo,3
+46,37,Gardu Pandang Mangli,3
+46,38,Gelar Budaya Wanurejo,5
+46,39,Gondo Purowangi,3
+46,40,Gunung Gono,3
+46,41,Ketep Pass,2
+46,42,Little Ubud River Tubing,3
+46,43,Mangli,3
+46,44,Nakula Sadewa,5
+46,45,Pahat Batu Dan Edukasi Tamanagung,1
+46,46,Papringan Sawangan,3
+46,47,Pasar Kebon Watu Gede,3
+46,48,Pemandian Air Hangat Candi Umbul,3
+46,49,Pendakian Gunung Andong Via Pendem,3
+46,50,Pendakian Gunung Andong Via Sawit,2
+46,51,Pendakian Gunung Giyanti,2
+46,52,Prasati Tuk Mas,5
+46,53,Punthuk Mangir Gunung Payung,2
+46,54,Punthuk Mongrong,3
+46,55,Punthuk Setumbu,2
+46,56,River Tubing X-Gono Adventure,1
+46,57,Rumah Camera,3
+46,58,Sendang Hageng Tirta Kencana,3
+46,59,Silancur Higland,2
+46,60,Sleker Asri,3
+47,1,Borobudur International Golf & Country Club,3
+47,2,Gunung Tidar,3
+47,3,Kebun Bibit Senopati,3
+47,4,Museum Abdul Jalil,3
+47,5,Museum AJB Bumi Putera,3
+47,6,Museum BPK RI,4
+47,7,Museum Diponegoro,3
+47,8,Museum OHD,1
+47,9,Museum Sudirman,3
+47,10,Prasasti Mantyasih,1
+47,11,Taman Kyai Langgeng,1
+47,12,Air Terjun Curug Silawe,3
+47,13,Air Terjun Kedungkayang,3
+47,14,Air Terjun Sekarlangit,3
+47,15,Air Terjun Sumuran Seloprojo,3
+47,16,Arung Jeram Sungai Elo,1
+47,17,Bukit Barede,2
+47,18,Bukit Grenden,3
+47,19,Bukit Rhema,3
+47,20,Candi Asu,3
+47,21,Candi Borobudur,3
+47,22,Candi Gunung Wukir,3
+47,23,Candi Gunungsari,3
+47,24,Candi Losari,2
+47,25,Candi Lumbung Sengi,1
+47,26,Candi Mendut Dan Pawon,3
+47,27,Candi Ngawen,3
+47,28,Candi Pendem,3
+47,29,Candi Retno,1
+47,30,Candi Selogriyo,3
+48,40,Gunung Gono,3
+48,41,Ketep Pass,3
+48,42,Little Ubud River Tubing,1
+48,43,Mangli,3
+48,44,Nakula Sadewa,2
+48,45,Pahat Batu Dan Edukasi Tamanagung,3
+48,46,Papringan Sawangan,3
+48,47,Pasar Kebon Watu Gede,2
+48,48,Pemandian Air Hangat Candi Umbul,3
+48,49,Pendakian Gunung Andong Via Pendem,3
+48,50,Pendakian Gunung Andong Via Sawit,3
+48,51,Pendakian Gunung Giyanti,3
+48,52,Prasati Tuk Mas,5
+48,53,Punthuk Mangir Gunung Payung,3
+48,54,Punthuk Mongrong,3
+48,55,Punthuk Setumbu,3
+48,56,River Tubing X-Gono Adventure,1
+48,57,Rumah Camera,2
+48,58,Sendang Hageng Tirta Kencana,3
+48,59,Silancur Higland,2
+48,60,Sleker Asri,3
+48,61,Taman Bunga Pagoda,2
+48,62,Taman Naura,3
+48,63,Taman Ramadanu,3
+48,64,Taman Rekreasi Mendut,2
+48,65,Taman Wisata Kalibening,2
+48,66,Telaga Bleder,3
+48,67,Top Selfi Kragilan,3
+48,68,Tubing Kali Blongkeng,3
+48,69,Tubing Sobo Ndeso Sobo Kali,3
+49,4,Museum Abdul Jalil,3
+49,5,Museum AJB Bumi Putera,3
+49,6,Museum BPK RI,3
+49,7,Museum Diponegoro,4
+49,8,Museum OHD,3
+49,9,Museum Sudirman,4
+49,10,Prasasti Mantyasih,4
+49,11,Taman Kyai Langgeng,3
+49,12,Air Terjun Curug Silawe,5
+49,13,Air Terjun Kedungkayang,5
+49,14,Air Terjun Sekarlangit,5
+49,15,Air Terjun Sumuran Seloprojo,5
+49,16,Arung Jeram Sungai Elo,5
+49,17,Bukit Barede,4
+49,18,Bukit Grenden,4
+49,19,Bukit Rhema,4
+49,20,Candi Asu,3
+49,21,Candi Borobudur,4
+49,22,Candi Gunung Wukir,4
+49,23,Candi Gunungsari,4
+49,24,Candi Losari,3
+49,25,Candi Lumbung Sengi,3
+49,26,Candi Mendut Dan Pawon,4
+49,27,Candi Ngawen,3
+49,28,Candi Pendem,4
+49,29,Candi Retno,4
+49,30,Candi Selogriyo,3
+49,31,Curug Delimas,5
+49,32,Curug Sigetik,4
+49,33,Desa Bahasa Borobodur,3
+50,34,Desa Wisata Candirejo,5
+50,35,Festifal Telaga Bleder,5
+50,36,Festival Kali Elo,5
+50,37,Gardu Pandang Mangli,5
+50,38,Gelar Budaya Wanurejo,5
+50,39,Gondo Purowangi,5
+50,40,Gunung Gono,5
+50,41,Ketep Pass,5
+50,42,Little Ubud River Tubing,5
+50,43,Mangli,5
+50,44,Nakula Sadewa,5
+50,45,Pahat Batu Dan Edukasi Tamanagung,5
+50,46,Papringan Sawangan,5
+50,47,Pasar Kebon Watu Gede,5
+50,48,Pemandian Air Hangat Candi Umbul,5
+50,49,Pendakian Gunung Andong Via Pendem,5
+50,50,Pendakian Gunung Andong Via Sawit,5
+50,51,Pendakian Gunung Giyanti,5
+50,52,Prasati Tuk Mas,3
+50,53,Punthuk Mangir Gunung Payung,5
+50,54,Punthuk Mongrong,5
+50,55,Punthuk Setumbu,5
+50,56,River Tubing X-Gono Adventure,5
+50,57,Rumah Camera,3
+50,58,Sendang Hageng Tirta Kencana,5
+50,59,Silancur Higland,5
+50,60,Sleker Asri,5
+50,61,Taman Bunga Pagoda,5
+50,62,Taman Naura,5
+50,63,Taman Ramadanu,5
