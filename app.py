@@ -43,7 +43,6 @@ def recommend_places(user_id, top_n=5):
     place_scores = list(zip(places, user_ratings))
     place_scores.sort(key=lambda x: x[1], reverse=True)
 
-    # Ambil top N
     top_rekom = []
     for pid, score in place_scores:
         name = place_df[place_df["Place_Id"] == pid]["Place_Name"].values[0]
@@ -60,8 +59,13 @@ def recommend_places(user_id, top_n=5):
 def search_place(keyword):
     keyword_lower = keyword.lower()
 
-    name_match = place_df[place_df['Place_Name'].str.contains(keyword, case=False, na=False)]
-    desc_match = place_df[place_df['Description'].str.contains(keyword, case=False, na=False)]
+    name_match = place_df[
+        place_df['Place_Name'].str.contains(keyword, case=False, na=False)
+    ]
+
+    desc_match = place_df[
+        place_df['Description'].fillna('').str.contains(keyword, case=False, na=False)
+    ]
 
     results = pd.concat([name_match, desc_match]).drop_duplicates()
     return results
@@ -74,7 +78,9 @@ st.caption("Menggunakan Matrix Factorization (SVD Manual NumPy)")
 
 st.markdown("---")
 
+# ===============================
 # SEARCH BAR
+# ===============================
 search_query = st.text_input("🔍 Cari Tempat Wisata...", placeholder="Misal: Borobudur")
 
 if search_query:
@@ -86,18 +92,18 @@ if search_query:
         for _, row in results.iterrows():
             st.subheader(f"📍 {row['Place_Name']}")
 
-            # Highlight deskripsi
-            desc = row["Description"]
+            desc = row["Description"] if pd.notna(row["Description"]) else ""
             highlighted = re.sub(f"(?i)({search_query})", r"**\1**", desc)
             st.markdown(highlighted)
 
-            # Rating rata-rata
             avg = rating_df[rating_df["Place_Name"] == row["Place_Name"]]["Place_Rating"].mean()
             st.write(f"⭐ Rating rata-rata: {avg:.2f}")
 
             st.markdown("---")
 
+# ===============================
 # REKOMENDASI
+# ===============================
 st.subheader("🎯 Rekomendasi Berdasarkan User ID")
 
 selected_user = st.selectbox("Pilih User ID:", users)
