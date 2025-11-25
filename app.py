@@ -26,17 +26,30 @@ def load_data():
 rating_df, place_df, user_df = load_data()
 
 # ===============================
-# SEARCH WISATA
+# SEARCH WISATA (Dengan Sorting)
 # ===============================
 def search_place(keyword):
     keyword_lower = keyword.lower()
 
+    # Cari berdasarkan nama & deskripsi
     name_match = place_df[place_df['Place_Name'].str.contains(keyword, case=False, na=False)]
     desc_match = place_df[place_df['Description'].str.contains(keyword, case=False, na=False)]
 
+    # Gabungkan
     results = pd.concat([name_match, desc_match]).drop_duplicates()
-    return results
 
+    if results.empty:
+        return results
+
+    # Tambahkan kolom rata-rata rating
+    results["avg_rating"] = results["Place_Name"].apply(
+        lambda x: rating_df[rating_df["Place_Name"] == x]["Place_Rating"].mean()
+    )
+
+    # Urutkan dari rating tertinggi → terendah
+    results = results.sort_values("avg_rating", ascending=False)
+
+    return results
 
 # ===============================
 # UI STREAMLIT
@@ -66,8 +79,8 @@ if search_query:
             st.markdown(highlighted)
 
             # Rating rata-rata
-            avg = rating_df[rating_df["Place_Name"] == row["Place_Name"]]["Place_Rating"].mean()
-            st.write(f"⭐ Rata-rata Rating: {avg:.2f}/5.0")
+            avg = row["avg_rating"]
+            st.write(f"⭐ **Rata-rata Rating: {avg:.2f}/5.0**")
 
             st.markdown("---")
 
