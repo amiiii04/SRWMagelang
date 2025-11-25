@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 import re
 
 # ===============================
@@ -13,6 +14,15 @@ st.set_page_config(
     layout="wide"
 )
 
+
+# ===============================
+# 📂 DEBUG: CEK FILE YANG ADA
+# ===============================
+st.sidebar.subheader("📁 Debugging Files")
+st.sidebar.write("Files in working directory:")
+st.sidebar.write(os.listdir("."))
+
+
 # ===============================
 # 📂 LOAD DATASET
 # ===============================
@@ -23,37 +33,55 @@ def load_data():
         place_df = pd.read_csv("Dataset_tourisMagelang.csv")
         user_df = pd.read_csv("Dataset_usermgl.csv")
     except FileNotFoundError:
-        st.error("❌ File dataset tidak ditemukan. Pastikan file CSV telah diunggah.")
+        st.error("❌ File dataset tidak ditemukan. Pastikan file CSV berada di folder yang sama dengan app.py")
         return None, None, None
     return rating_df, place_df, user_df
 
 
 # ===============================
-# 📦 LOAD MODEL SVD
+# 📦 LOAD MODEL SVD / MF
 # ===============================
 @st.cache_resource
 def load_model():
-    try:
-        model = joblib.load("mf_model.pkl")
-    except FileNotFoundError:
-        st.error("❌ File model SVD (mf_model.pkl) tidak ditemukan.")
+
+    # Debug informasi folder
+    st.write("📂 Current Working Directory:", os.getcwd())
+    st.write("📄 Files:", os.listdir("."))
+
+    model_path = "mf_model.pkl"
+
+    if not os.path.exists(model_path):
+        st.error(f"❌ File model SVD '{model_path}' tidak ditemukan.")
+        st.info("💡 Pastikan file mf_model.pkl berada di direktori yang sama dengan app.py.")
         return None
+
+    try:
+        model = joblib.load(model_path)
+    except Exception as e:
+        st.error(f"❌ Gagal load model. Error: {e}")
+        return None
+
     return model
 
 
 rating_df, place_df, user_df = load_data()
 model = load_model()
 
+# Jika dataset atau model tidak tersedia → berhenti
 if rating_df is None or model is None:
     st.stop()
 
 
 # ===============================
-# 🧠 FUNGSI PREDIKSI (SVD)
+# 🧠 FUNGSI PREDIKSI (SVD/MF)
 # ===============================
 def predict_rating(user_id, place_id):
-    pred = model.predict(user_id, place_id)
-    return pred.est
+    try:
+        pred = model.predict(user_id, place_id)
+        return pred.est
+    except Exception as e:
+        st.error(f"❌ Gagal memprediksi: {e}")
+        return 0
 
 
 # ===============================
@@ -115,7 +143,7 @@ if search_query:
     results = search_place(search_query)
 
     if results.empty:
-        st.warning("Tempat tidak ditemukan.")
+        st.warning("❌ Tempat tidak ditemukan.")
     else:
         for idx, row in results.iterrows():
             st.subheader(f"📍 {row['Place_Name']}")
@@ -129,7 +157,7 @@ if search_query:
 
             st.markdown("---")
 else:
-    st.info("Cari tempat wisata untuk melihat detailnya.")
+    st.info("🔎 Cari tempat wisata untuk melihat detailnya.")
 
 
 # ===============================
