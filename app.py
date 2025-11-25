@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 import re
 
 # ===============================
@@ -26,29 +25,25 @@ def load_data():
 rating_df, place_df, user_df = load_data()
 
 # ===============================
-# SEARCH WISATA (Dengan Sorting)
+# SEARCH FUNCTION
 # ===============================
-def search_place(keyword):
+def search_place(keyword, selected_category=None):
+    df = place_df.copy()
+
+    # Filter kategori jika dipilih
+    if selected_category != "Semua Kategori":
+        df = df[df["Category"] == selected_category]
+
+    # Jika tidak ada keyword → tampilkan semua tempat sesuai kategori
+    if keyword == "":
+        return df
+
     keyword_lower = keyword.lower()
 
-    # Cari berdasarkan nama & deskripsi
-    name_match = place_df[place_df['Place_Name'].str.contains(keyword, case=False, na=False)]
-    desc_match = place_df[place_df['Description'].str.contains(keyword, case=False, na=False)]
+    name_match = df[df["Place_Name"].str.contains(keyword, case=False, na=False)]
+    desc_match = df[df["Description"].str.contains(keyword, case=False, na=False)]
 
-    # Gabungkan
     results = pd.concat([name_match, desc_match]).drop_duplicates()
-
-    if results.empty:
-        return results
-
-    # Tambahkan kolom rata-rata rating
-    results["avg_rating"] = results["Place_Name"].apply(
-        lambda x: rating_df[rating_df["Place_Name"] == x]["Place_Rating"].mean()
-    )
-
-    # Urutkan dari rating tertinggi → terendah
-    results = results.sort_values("avg_rating", ascending=False)
-
     return results
 
 # ===============================
@@ -60,29 +55,41 @@ st.caption("Menggunakan Matrix Factorization (Model Manual) — *Tanpa User ID*"
 st.markdown("---")
 
 # ===============================
+# FILTER KATEGORI
+# ===============================
+all_categories = ["Semua Kategori"] + sorted(place_df["Category"].unique())
+
+selected_category = st.selectbox("🎯 Filter Kategori", all_categories)
+
+# ===============================
 # SEARCH BAR
 # ===============================
-search_query = st.text_input("🔍 Cari Tempat Wisata...", placeholder="Misal: Borobudur")
+search_query = st.text_input("🔍 Cari Tempat Wisata...", placeholder="Misal: Borobudur, gunung, museum...")
 
-if search_query:
-    results = search_place(search_query)
+# Ambil hasil
+results = search_place(search_query, selected_category)
 
-    if results.empty:
-        st.warning("❌ Tempat tidak ditemukan.")
-    else:
-        for _, row in results.iterrows():
-            st.subheader(f"📍 {row['Place_Name']}")
-
-            # Highlight keyword
-            desc = row["Description"]
-            highlighted = re.sub(f"(?i)({search_query})", r"**\1**", desc)
-            st.markdown(highlighted)
-
-            # Rating rata-rata
-            avg = row["avg_rating"]
-            st.write(f"⭐ **Rata-rata Rating: {avg:.2f}/5.0**")
-
-            st.markdown("---")
-
+# ===============================
+# TAMPILKAN HASIL
+# ===============================
+if results.empty:
+    st.warning("❌ Tidak ditemukan tempat wisata sesuai pencarian.")
 else:
-    st.info("Masukkan nama tempat wisata untuk mencari informasi.")
+    # Urutkan berdasarkan rating tertinggi (Rating_Gmaps)
+    results = results.sort_values(by="Rating_Gmaps", ascending=False)
+
+    for _, row in results.iterrows():
+        st.subheader(f"📍 {row['Place_Name']}")
+
+        # Highlight text
+        desc = row["Description"]
+        if search_query:
+            desc = re.sub(f"(?i)({search_query})", r"**\1**", desc)
+
+        st.markdown(desc)
+
+        # Rating
+        st.write(f"⭐ Rating Google Maps: **{row['Rating_Gmaps']}** / 5.0")
+
+        st.write(f"🏷️ Kategori: **{row['Category']}**")
+        st.write("---")
