@@ -4,108 +4,101 @@ import numpy as np
 import joblib
 import re
 
-st.set_page_config(page_title="Rekomendasi Wisata Magelang", page_icon="🏞️", layout="wide")
+# ===============================
+# 🔧 KONFIGURASI HALAMAN
+# ===============================
+st.set_page_config(
+    page_title="Rekomendasi Wisata Magelang",
+    page_icon="🏞️",
+    layout="wide"
+)
 
 # ===============================
-# LOAD DATA
+# 📂 LOAD DATA
 # ===============================
 @st.cache_data
 def load_data():
-    rating_df = pd.read_csv("Dataset_Rating_Mgl.csv")
-    place_df = pd.read_csv("Dataset_tourisMagelang.csv")
-    user_df = pd.read_csv("Dataset_usermgl.csv")
+    try:
+        rating_df = pd.read_csv("Dataset_Rating_Mgl.csv")
+        place_df = pd.read_csv("Dataset_tourisMagelang.csv")
+        user_df = pd.read_csv("Dataset_usermgl.csv")
+    except FileNotFoundError:
+        st.error("❌ File dataset tidak ditemukan.")
+        return None, None, None
     return rating_df, place_df, user_df
 
 # ===============================
-# LOAD MODEL MANUAL SVD
+# 📦 LOAD MODEL SVD
 # ===============================
-@st.cache_resource
+@st.cache_data
 def load_model():
-    return joblib.load("mf_model_manual.pkl")
+    try:
+        model = joblib.load("mf_model.pkl")
+    except FileNotFoundError:
+        st.error("❌ File model SVD (mf_model.pkl) tidak ditemukan.")
+        return None
+    return model
 
 rating_df, place_df, user_df = load_data()
 model = load_model()
 
-pred_matrix = model["pred_matrix"]
-users = model["users"]
-places = model["places"]
+if rating_df is None or model is None:
+    st.stop()
 
 # ===============================
-# FUNGSI REKOMENDASI
-# ===============================
-def recommend_places(user_id, top_n=5):
-    if user_id not in users:
-        return []
-
-    user_index = users.index(user_id)
-    user_ratings = pred_matrix[user_index]
-
-    place_scores = list(zip(places, user_ratings))
-    place_scores.sort(key=lambda x: x[1], reverse=True)
-
-    # Ambil top N
-    top_rekom = []
-    for pid, score in place_scores:
-        name = place_df[place_df["Place_Id"] == pid]["Place_Name"].values[0]
-        top_rekom.append((name, score))
-
-        if len(top_rekom) == top_n:
-            break
-
-    return top_rekom
-
-# ===============================
-# SEARCH WISATA
+# 🔍 SEARCH WISATA
 # ===============================
 def search_place(keyword):
     keyword_lower = keyword.lower()
 
-    name_match = place_df[place_df['Place_Name'].str.contains(keyword, case=False, na=False)]
-    desc_match = place_df[place_df['Description'].str.contains(keyword, case=False, na=False)]
+    name_match = place_df[place_df['Place_Name'].str.contains(keyword, case=False, na=False)].copy()
+    desc_match = place_df[place_df['Description'].str.contains(keyword, case=False, na=False)].copy()
 
-    results = pd.concat([name_match, desc_match]).drop_duplicates()
+    results = pd.concat([name_match, desc_match]).drop_duplicates().reset_index(drop=True)
+    if results.empty:
+        return results
+
+    def relevance_score(row):
+        name_score = row['Place_Name'].lower().count(keyword_lower)
+        desc_score = row['Description'].lower().count(keyword_lower)
+        return name_score * 2 + desc_score
+
+    results["Relevance"] = results.apply(relevance_score, axis=1)
+    results = results.sort_values("Relevance", ascending=False)
     return results
 
 # ===============================
-# UI STREAMLIT
+# 🖥️ UI STREAMLIT
 # ===============================
 st.title("🏞️ Sistem Rekomendasi Wisata Magelang")
 st.caption("Menggunakan Matrix Factorization (SVD Manual NumPy)")
 
 st.markdown("---")
 
-# SEARCH BAR
-search_query = st.text_input("🔍 Cari Tempat Wisata...", placeholder="Misal: Borobudur")
+# ===============================
+# 🔍 SEARCH BAR
+# ===============================
+search_query = st.text_input("🔍 Cari Tempat Wisata", placeholder="Misal: Borobudur")
 
 if search_query:
     results = search_place(search_query)
 
     if results.empty:
-        st.warning("Tidak ditemukan.")
+        st.warning("Tempat tidak ditemukan.")
     else:
-        for _, row in results.iterrows():
+        for idx, row in results.iterrows():
             st.subheader(f"📍 {row['Place_Name']}")
 
-            # Highlight deskripsi
-            desc = row["Description"]
-            highlighted = re.sub(f"(?i)({search_query})", r"**\1**", desc)
-            st.markdown(highlighted)
+            desc = row['Description']
+            highlighted_desc = re.sub(f"(?i)({search_query})", r"**\1**", desc)
+            st.markdown(f"📝 {highlighted_desc}")
 
-            # Rating rata-rata
-            avg = rating_df[rating_df["Place_Name"] == row["Place_Name"]]["Place_Rating"].mean()
-            st.write(f"⭐ Rating rata-rata: {avg:.2f}")
+            avg = rating_df[rating_df['Place_Name'] == row['Place_Name']]['Place_Rating'].mean()
+            st.write(f"⭐ Rata-rata Rating: {avg:.2f}/5.0")
 
             st.markdown("---")
 
-# REKOMENDASI
-st.subheader("🎯 Rekomendasi Berdasarkan User ID")
+else:
+    st.info("Cari tempat wisata untuk melihat detailnya.")
 
-selected_user = st.selectbox("Pilih User ID:", users)
-
-if st.button("Tampilkan Rekomendasi"):
-    rekom = recommend_places(selected_user)
-
-    for place, score in rekom:
-        st.markdown(f"- **{place}** — Prediksi Rating `{score:.2f}` ⭐")
-
-st.sidebar.info("Sistem Rekomendasi Wisata Magelang (SVD Manual)")
+st.sidebar.caption("Sistem Rekomendasi Wisata — SVD Version")
